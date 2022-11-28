@@ -1,0 +1,176 @@
+html {
+    box-sizing: border-box;
+}
+
+#main {
+    background-color: beige;
+    border-radius: 30px 30px 30px 30px;
+    margin: 30px;
+    padding: 5px 5px;
+}
+
+/* styling the headers */
+
+#title {
+    font-size: 250%;
+    padding: 10px auto auto 0px;
+    margin: 50px auto auto auto;
+}
+
+p {
+    font-size: 100%;
+    margin: 1px auto 50px auto;
+    padding: auto auto 50px auto;
+}
+
+#img-div {
+    width: 75%;
+    height: auto;
+    background-color: white;
+    padding-top: 25px;
+    border-radius: 25px;
+    margin: 0px auto 10px auto;
+}
+
+#image {
+    max-width: 100%;
+    width: 65%;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+}
+
+#img-caption {
+    text-align: center;
+    max-width: 65%;
+    height: auto;
+    margin: 10px auto;
+    font-size: 120%;
+}
+
+.header {
+    margin: 50px auto auto auto;
+    text-align: center;
+    font-size: 250%;
+    text-decoration: underline;
+}
+
+.container {
+    display: block;
+    text-align: center;
+    margin: 40px auto auto auto;
+    padding: 0px auto;
+}
+
+ul {
+    position: block;
+    justify-content: center;
+    text-align: center !important;
+    padding: 15px 150px 15px 150px;
+    margin: 30px 100px auto 100px;
+    min-width: 40% !important;
+
+}
+
+li {
+    padding: 10px 100px 10px 0px;
+    text-align: justify;
+    justify-content: center;
+    font-size: 150%;
+    max-width: 100%;
+    display: aboslute;
+    margin: 0px 100px 0px 100px;
+}
+
+blockquote {
+    font-size: 125%;
+    text-align: center;
+    font-style: italic;
+    background-color: white;
+    margin: 10px auto 0px auto;
+    max-width: 100%;
+}
+
+
+.footer {
+    display: block;
+    font-size: 120%;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px 0px 100px 0px;
+    padding: 20px 50px 20px 50px;
+}
+
+.header2 {
+    color: beige;
+    text-align: center;
+    clip-path: inset(50%);
+    -webkit-clip-path: inset(50%);
+}
+
+#box {
+    height: 150px;
+    width: auto;
+    text-align: center;
+    justify-content: center;
+    margin: 50px auto;
+}
+
+#btn {
+    font-size: auto;
+}
+
+#output {
+    max-width: 75%;
+    font-weight: bold;
+    font-style: italic;
+    background-color: beige;
+    width: auto;
+    font-size: 120%;
+    margin: 25px auto;
+
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        margin-top: 500px;
+    }
+
+    body {
+        background-color: rgb(7, 7, 7);
+    }
+
+    #img-caption {
+        font-size: 75%;
+        margin: 25px auto;
+
+    }
+
+    ul {
+        text-align: center;
+        max-width: 100%;
+        justify-content: center;
+        margin: auto 25px 25px auto;
+    }
+
+    li {
+        max-width: 100%;
+        justify-content: center;
+        font-size: 75%;
+        margin: auto 25px 25px auto;
+
+    }
+
+    .header {
+        font-size: 100%;
+    }
+
+    blockquote {
+        font-size: 75%;
+    }
+
+    .footer {
+        font-size: 75%;
+    }
+}

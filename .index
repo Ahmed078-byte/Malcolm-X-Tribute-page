@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="Malcolm X Tribute">
+    <link rel="stylesheet" href="styles.css">
+
+
+    <title>Malcolm X</title>
+</head>
+
+<body>
+    <main id="main">
+
+        <div class="header">
+
+            <h1 id="title">Malcolm X</h1>
+            <p> Malcolm X, an African American nationalist and religious leader.</p>
+
+        </div>
+
+        <figure id="img-div">
+            <img id="image" alt="a picture of malcolm x"
+                src="https://www.history.com/.image/ar_16:9%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTU3ODc3NjU2MjEyNDE1ODE3/this-day-in-history-02211965---malcolm-x-assassinated.jpg" />
+            <figcaption id="img-caption">
+                February 21, 1965: In New York City, Malcolm X, an African American nationalist and religious leader, is
+                assassinated while addressing his Organization of Afro-American Unity at the Audubon Ballroom in
+                Washington Heights.
+            </figcaption>
+            <div id="box">
+                <button id="btn">Quote Of The Day</button>
+                <div id="output">Press the quote generator!</div>
+                <script src="main.js"></script>
+            </div>
+        </figure>
+
+        <section id="tribute-info">
+            <h3 class="header">Here a time of Malcolm X life</h3>
+            <div class="container">
+                <ul>
+                    <li><strong>1925</strong> - Born in Omaha, Nabraska</li>
+                    <li><strong>1931</strong> - Malcolm’s father was murdered by the white supremacist Black Legion, and
+                        Michigan authorities refused to prosecute those responsible.</li>
+                    <li><strong>1937</strong> - Malcolm was taken from his family by welfare caseworkers. By the time he
+                        reached high school age, he had dropped out of school and moved to Boston, where he became
+                        increasingly involved in criminal activities.</li>
+                    <li><strong>1946</strong> - Malcolm was sent to prison on a burglary conviction. It was there he
+                        encountered the teachings of <b>Elijah Muhammad</b>, the leader of the Nation of Islam, whose
+                        members are popularly known as <b>Black Muslims</b>. The Nation of Islam advocated Black
+                        nationalism and racial separatism. Muhammad’s teachings had a strong effect on Malcolm, who
+                        entered into an intense program of self-education and took the last name “X” to symbolize his
+                        stolen African identity.</li>
+                    <li><strong>1952</strong> - Malcolm was released from prison and became a loyal and effective
+                        minister of the Nation of Islam in Harlem, New York.</li>
+                    <li><strong>1960s</strong> - He began to develop a more outspoken philosophy than that of Elijah
+                        Muhammad, whom he felt did not sufficiently support the civil rights movement.</li>
+                    <li><strong>1963</strong> - Malcolm’s suggestion that President John F. Kennedy’s assassination was
+                        a matter of the “chickens coming home to roost” provided Elijah Muhammad, who believed that
+                        Malcolm had become too powerful, with a convenient opportunity to suspend him from the Nation of
+                        Islam.<br></br>A few months later, Malcolm formally left the organization and made a Muslim
+                        pilgrimage to Mecca, where he was profoundly affected by the lack of racial discord among
+                        orthodox Muslims.</li>
+                    <li><strong>1964 </strong> - He returned to America as El-Hajj Malik El-Shabazz and founded the
+                        Organization of Afro-American Unity, which advocated Black identity and held that racism, not
+                        the white race, was the greatest foe of the African American. Malcolm’s new movement steadily
+                        gained followers, and his more moderate philosophy became increasingly influential in the civil
+                        rights movement, especially among the leaders of the Student Non-Violent Coordinating Committee.
+                    </li>
+                    <li><strong>1965</strong> - On stage at the Audubon Ballroom, Malcolm X was gunned down as his
+                        pregnant wife and four daughters took cover in the front row. Three members of the Nation of
+                        Islam—Mujahid Abdul Halim, Muhammad A. Aziz and Khalil Islam—were soon after charged with
+                        first-degree murder. Islam and Aziz maintained their innocence.</li>
+                    <li><strong>1966 </strong> - Halim confessed to the crime and testified that Islam and Aziz were
+                        innocent. All three men were found guilty, however, and sentenced to 20 years to life in prison.
+                    </li>
+                    <li><strong>2021</strong> - Aziz and Islam were exonerated after an investigation that included the
+                        discovery of key FBI documents withheld from the defense and prosecution during the trial. Aziz
+                        was 83 at the time of the exoneration; Islam had died in 2009. </li>
+                </ul>
+            </div>
+
+        </section>
+        <blockquote cite="https://parade.com/1161190/saginecorrielus/malcolm-x-quotes/">
+            <p>"There is no better than adversity. Every defeat, every heartbreak, every loss, contains its own seed,
+                its own lesson on how to improve your performance next time."</p>
+        </blockquote>
+
+        <div class="footer">
+            <h3>If you have time, you should read more about this incredible human being on his <a id="tribute-link"
+                    href="https://en.wikipedia.org/wiki/Malcolm_X" target="_blank">Wikipedia entry.</h3>
+        </div>
+
+
+    </main>
+</body>
+
+</html>
